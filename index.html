@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Кофейная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <section>
+    <div class="circle"></div>
+    <header>
+      <a href="#" class="logo"><img src="logo.png"></a>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Меню</a></li>
+        <li><a href="#">Что нового</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+        <h2>Это не просто кофе<br>Это<span>"Coffee Haven: Оазис Аромата и Вкуса"</span></h2>
+        <p>Добро пожаловать в нашу кофейню! Мы рады предложить вам широкий выбор свежесваренных напитков, ароматных десертов и уютную обстановку для приятных встреч.
+          Наслаждайтесь настоящим итальянским эспрессо вместе с нами! В нашей кофейне вы найдете удобные места для работы и отдыха, а также дружелюбный персонал, 
+          готовый порадовать вас лучшим кофе в городе.</p>          
+      <a href="#">Читать еще</a>
+      </div>
+      <div class="imgbox">
+        <img src="img1.png" class="starbucks">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="thumb1.png" onclick="imgSlider('img1.png'); changecirclecolor('#442d25')"></li>
+      <li><img src="thumb2.png" onclick="imgSlider('img2.png'); changecirclecolor('#6f4e37')"></li>
+      <li><img src="thumb3.png" onclick="imgSlider('img3.png'); changecirclecolor('#403935')"></li>
+    </ul>
+    <ul class="social">
+      <li><a href="#"><img src="facebook.png"></a></li>
+      <li><a href="#"><img src="twitter.png"></a></li>
+      <li><a href="#"><img src="instagram.png"></a></li>
+    </ul>
+   </section>
+
+   <section class="coffee-menu">
+    <div class="coffee-menu-item">
+      <img src="card1.jpg">
+      <h3>Капучино с маршмеллоу</h3>
+      <p>Сочетание молочной пенки и ванильного аромата с маршмеллоу. Наслаждайтесь идеальным балансом вкусов в нашей версии классического напитка!</p>
+    </div>
+    <div class="coffee-menu-item">
+      <img src="card2.png">
+      <h3>Латте c карамелью</h3>
+      <p>Нежный латте с ароматной карамелью — идеальный выбор для тех, кто любит сладкие напитки. Мягкое сочетание молочной 
+        пенки и карамельного сиропа создают неповторимый вкус, который никого не оставит равнодушным.</p>
+    </div>
+    <div class="coffee-menu-item">
+      <img src="card3.webp">
+      <h3>Эспрессо с мятой</h3>
+      <p>
+        Насыщенный эспрессо с мятной ноткой — это идеальный напиток для настоящих ценителей кофе. 
+        Освежающая мята прекрасно дополняет бодрящий вкус эспрессо, создавая неповторимое сочетание, которое точно понравится Вам!</p>
+    </div>
+    <div class="coffee-menu-item">
+      <img src="card4.jpg">
+      <h3>Американо</h3>
+      <p>Свежесваренный американо - настоящее утешение для настоящих кофеманов. Сильный и ароматный напиток, который согреет вас в любое время 
+        дня и подарит тонкий вкус свежего кофе.</p>
+    </div>
+  </section>
+
+
+
+  <section class="testimonial">
+    <div class="container">
+      <div class="testimonial-header">
+        <h2>Отзывы наших клиентов</h2>
+        <p>Прочитайте, что о нас говорят наши клиенты</p>
+      </div>
+      <div class="testimonial-carousel">
+        <div class="testimonial-item">
+          <img src="avatar.jpg" alt="User">
+          <div class="testimonial-content">
+            <p>"Замечательная кофейня с прекрасным сервисом и вкуснейшим кофе! Очень рекомендую!"</p>
+            <h4>Анна Иванова</h4>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <img src="avatar.jpg" alt="User">
+          <div class="testimonial-content">
+            <p>"Всегда прихожу сюда за вкуснейшим латте и приятной атмосферой. Очень довольна обслуживанием!"</p>
+            <h4>Денис Смирнов</h4>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <img src="avatar.jpg" alt="User">
+          <div class="testimonial-content">
+            <p>"Я стала регулярным посетителем этой кофейни после первого визита. Кофе здесь просто потрясающий!"</p>
+            <h4>Ольга Петрова</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- <section class="section-games">
+    <div class="container">
+      <h2 class="section-title">НАША КОМАНДА НЕ СТОИТ НА МЕСТЕ!</h2>
+        <div class="about">
+          <img src="board2.jpg" alt="Настольные игры" class="img-fluid">        
+          <p class="section-name">УБЕР КОФЕ</p>
+          <p class="section-text">В нашей кофейне вы можете не только выпить чашечку ароматного кофе, но и провести время в уютной атмосфере. У нас есть настольные игры для всех возрастов, бесплатный Wi-Fi и множество других возможностей для отличного времяпровождения.</p>
+        </div>
+      </div>
+  </section>
+-->
+
+<section class="section-games">
+  <div class="container">
+    <h2 class="section-title">НАША КОМАНДА НЕ СТОИТ НА МЕСТЕ!</h2>
+    <div class="about">
+      <img src="board2.jpg" alt="Настольные игры" class="img-fluid">
+      <div class="section-details">
+        <p class="section-name">Coffee Haven</p>
+        <p class="section-text">Погрузитесь в уютную атмосферу кофейни, где вас ждет не только ароматный кофе, но и
+           возможность окунуться в мир настольных игр прямо за столом, окруженным источниками вдохновения.</p>
+        <div class="promotions">
+          <div class="promotion">
+            <h3 class="promotion-title">Акция 1</h3>
+            <p class="promotion-text">Пришли парой? Скидка на игру 10%</p>
+          </div>
+          <div class="promotion">
+            <h3 class="promotion-title">Акция 2</h3>
+            <p class="promotion-text">Компания от 4 человек? 4 кофе по цене 2х</p>
+          </div>
+          <div class="promotion">
+            <h3 class="promotion-title">Акция 3</h3>
+            <p class="promotion-text">Постояльцем огромные скидки! До 50%!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="container">
+  <h2>Контакты</h2>
+  <div class="info-container">
+    <p>Мы находимся по адресу: ул. Примерная, 123, Город</p>
+    <p>Телефон: 123-456-789</p>
+    <p>Email: info@mycafe.com</p>
+  </div>
+  <p class="games-description">Приходите в нашу кофейню, где вы можете насладиться вкусным кофе и поиграть в настольные игры. Мы предлагаем широкий выбор игр для разных возрастных групп и вкусов. От настольных классиков до современных хитов, у нас найдется что-то для каждого.</p>
+</div></section>
+
+<footer id="footer">
+  <p>&copy; 2023 "Coffee Haven: Оазис Аромата и Вкуса". Все права защищены.</p>
+  <div class="back-to-top">Наверх</div>
+</footer>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var contactSection = document.getElementById('contact');
+    var footer = document.getElementById('footer');
+    var footerVisible = false;
+  
+    window.addEventListener('scroll', function() {
+      var scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  
+      var contactSectionRect = contactSection.getBoundingClientRect();
+      var contactSectionTop = contactSectionRect.top;
+      var contactSectionBottom = contactSectionRect.bottom;
+  
+      if (contactSectionTop < window.innerHeight && contactSectionBottom > 0 && !footerVisible) {
+        footer.classList.add('show');
+        footerVisible = true;
+      } else if ((contactSectionTop >= window.innerHeight || contactSectionBottom <= 0) && footerVisible) {
+        footer.classList.remove('show');
+        footerVisible = false;
+      }
+    });
+  
+    var backToTopButton = document.querySelector('.back-to-top');
+    backToTopButton.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+  </script>
+  
+   <script type="text/javascript">
+    function imgSlider(anything){
+      document.querySelector('.starbucks').src = anything;
+    }
+
+    function changecirclecolor(color){
+      const circle = document.querySelector('.circle');
+      circle.style.background = color;
+    }
+   </script>
+
+</body>
+
+</html>
