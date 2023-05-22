@@ -1,5 +1,5 @@
 # CoffeeHouse_landing
-maximbesperstov.github.io/Project/
+[ССылка на сайт](maximbesperstov.github.io/CoffeeHouse_landing/)
 Сделаны стаканчики по типу Старбакса; (js)
 Небольшой адаптив;
 Блок с настольными играми;
